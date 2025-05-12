@@ -393,12 +393,6 @@ h1 {
   border-radius: 1rem;
   background-color: var(--white-color);
   height: 100%;
-  transition: all 0.4s;
-}
-
-.feature:hover {
-  transform: translateY(-1.2rem);
-  box-shadow: 0 1.2rem 3.2rem rgba(0, 0, 0, 0.1);
 }
 
 .feature-icon {
@@ -435,13 +429,7 @@ h1 {
   box-shadow: 0 0.2rem 1.2rem rgba(0, 0, 0, 0.1);
   border-radius: 1rem;
   overflow: hidden;
-  transition: all 0.4s;
   height: 100%;
-}
-
-.meal:hover {
-  transform: translateY(-1.2rem);
-  box-shadow: 0 1.2rem 3.2rem rgba(0, 0, 0, 0.1);
 }
 
 .meal-img {
@@ -522,7 +510,6 @@ h1 {
 .section-testimonials {
   background-color: var(--primary-color-light);
   display: grid;
-  grid-template-columns: 55fr 45fr;
   align-items: center;
 }
 
@@ -532,8 +519,7 @@ h1 {
 
 .testimonials-container {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 3.2rem;
+  gap: 6.4rem;
 }
 
 .testimonial {
@@ -557,8 +543,7 @@ h1 {
 }
 
 .testimonial-name {
-  font-size: 1.4rem;
-  color: var(--grey-light-color);
+  font-size: 2.4rem;
 }
 
 .gallery {

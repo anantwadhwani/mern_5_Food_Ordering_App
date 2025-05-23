@@ -51,6 +51,7 @@
 
   h1 {
     font-size: 3.8rem;
+    margin-top: 2rem;
   }
 
   .hero {
@@ -123,6 +124,16 @@
     font-size: 31.25%;
   }
 
+  .container {
+    padding: 0 1.6rem;
+  }
+
+  .hero-text-box,
+  .cta-text-box,
+  .testimonials {
+    padding: 0 1.6rem;
+  }
+
   .hero {
     padding: 6.4rem 0 3.2rem 0;
   }
@@ -186,15 +197,15 @@
 /* Below 400px (Smaller phones) */
 @media (max-width: 25em) {
   html {
-    font-size: 25%;
+    font-size: 37.5%;
   }
 
   .heading-secondary {
-    font-size: 2.4rem;
+    font-size: 2.8rem;
   }
 
   .heading-tertiary {
-    font-size: 1.8rem;
+    font-size: 2rem;
   }
 
   .feature {
